@@ -1,54 +1,71 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- SEO -->
-
-    <!-- Website Title -->
-    <title>Ninad Kulkarni | About Me</title>
-
-    <!-- Material Design for Bootstrap fonts and icons -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-<!-- Custom CSS Bootstrap Override -->
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/responsive_home.css">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="/favicon.jpg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Ninad Kulkarni</title>
+  <meta name="description" content="Designer and software engineer. Brand systems, print, and product UI.">
+  <link rel="icon" type="image/jpeg" href="./favicon.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
 </head>
-
 <body>
+  <header class="container" style="padding-top: var(--sp-4); padding-bottom: var(--sp-5);">
+    <a href="./index.html" class="label" style="color: var(--accent);">&larr; Ninad Kulkarni</a>
+  </header>
 
-    <div id="about-content" class="container-fluid row">
-        <a href="index.html" style="z-index: 100;"><img id="close-btn-1" src="https://img.icons8.com/ios/75/FFFFFF/left.png"></a>
-        <img src="images/Ninad_Profile.png" class="col-md-5" alt="">
-        <div id="abootme" class="col-md-6">
-            <h1 class="display-2 h1-bold section-title" style="color: #00E676;">About Me</h1>
-            <p class="lead text-white">I am a Computer Science major at ASU but I love Design and have been nurturing my Graphic, Web and App design
-                skills for the past 4 years. I have experience with almost every Adobe Creative Cloud Suite product and you
-                can see my entire skill breakdown
-                <a style="color: #00E676;" href="skills.html">here</a>. I have been involved in many projects over the years with the most prominent one being National
-                Social Media Ambassador for Future Business Leaders of America. In my free time, I also like to read and
-                learn about new technologies. Right now I am spending my days learning about Apple's new SwiftUI and how
-                I can use to expedite my app development process.
-                <br>
-                <br> Fun Fact: I can solve a Rubik's Cube in under 50 seconds!
-            </p>
-            <br>
-        </div>
-    </div>
+  <main class="container-narrow">
+    <div class="label">About</div>
+    <h1 style="font-size: var(--fs-3xl); margin-top: var(--sp-2);">Designer. Sometimes engineer.</h1>
+    <hr class="accent-rule">
 
+    <p class="lead" style="margin-top: var(--sp-4);">
+      <!-- TODO during execution: replace with final bio. -->
+      I'm a full-stack software engineer at Blue Voice and a designer working across brand, print,
+      and product. I spent a season designing for ASU's Enterprise Marketing Hub (Alumni and Athletics,
+      print and digital), and founded Drive Insight, where I owned everything from logo to product UI.
+    </p>
 
+    <p>
+      Before all that: I studied Computer Science at ASU, spent years nurturing graphic, web, and
+      app design skills, and have worked with most of the Adobe Creative Cloud suite.
+    </p>
 
+    <p class="muted" style="font-size: var(--fs-sm);">Fun fact: I can solve a Rubik's Cube in under 50 seconds.</p>
+
+    <hr class="rule">
+
+    <div class="label">Selected Achievements</div>
+    <ul style="margin-top: var(--sp-2); line-height: 1.9;">
+      <!-- TODO: migrate real entries from old achievements.html before deleting it in Task 16. -->
+      <li>National Social Media Ambassador, FBLA</li>
+      <li>[additional entries]</li>
+    </ul>
+
+    <hr class="rule">
+
+    <div class="label">Skills</div>
+    <p style="margin-top: var(--sp-2);">
+      <!-- TODO: trim aggressively — this is 2026, not "knows Photoshop" territory. -->
+      Brand systems &middot; Print design &middot; Product UI/UX &middot; Typography &middot; Photography &middot;
+      Figma &middot; Adobe Creative Suite &middot; HTML/CSS/JS &middot; React &middot; TypeScript
+    </p>
+
+    <hr class="rule">
+
+    <div class="label">Contact</div>
+    <ul style="margin-top: var(--sp-2); line-height: 1.9;">
+      <li><a href="mailto:ninadk.dev@gmail.com" style="color: var(--accent);">ninadk.dev@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/ninad-kulkarni-2001/" style="color: var(--accent);">LinkedIn</a></li>
+      <li><a href="https://www.behance.net/ninadk038247" style="color: var(--accent);">Behance</a></li>
+      <li><a href="https://github.com/Ninkuk" style="color: var(--accent);">GitHub</a></li>
+    </ul>
+  </main>
+
+  <footer class="container" style="padding: var(--sp-6) var(--gutter); color: var(--text-muted); font-size: var(--fs-sm);">
+    <hr class="rule" style="margin-bottom: var(--sp-3);">
+    Ninad Kulkarni &middot; 2026
+  </footer>
 </body>
-
 </html>
