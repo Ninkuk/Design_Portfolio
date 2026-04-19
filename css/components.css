@@ -101,3 +101,30 @@
 .chip .count { opacity: 0.7; margin-left: 6px; font-feature-settings: "tnum"; }
 
 .archive-summary { color: var(--text-muted); font-size: var(--fs-sm); margin-top: var(--sp-2); }
+
+/* Lightbox overlay */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(26, 26, 26, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+}
+.lightbox[aria-hidden="false"] { opacity: 1; pointer-events: auto; }
+.lightbox img { max-width: min(96vw, 1400px); max-height: 90vh; display: block; border-radius: 3px; box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
+.lightbox__close {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  font-size: var(--fs-xl);
+  color: var(--bg);
+  line-height: 1;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.lightbox__close:hover { color: #fff; }
