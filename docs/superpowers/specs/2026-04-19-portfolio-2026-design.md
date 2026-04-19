@@ -2,7 +2,7 @@
 
 **Date:** 2026-04-19
 **Owner:** Ninad Kulkarni
-**Purpose:** Modernize the 2020 graphic design portfolio for a 2026 internal pitch (graphic designer role at current startup, in addition to existing SWE role), while remaining a general design portfolio for future use over 2–3 years.
+**Purpose:** Modernize the 2020 graphic design portfolio for a 2026 internal pitch (graphic designer role at Blue Voice, in addition to existing SWE role), while remaining a general design portfolio for future use over 2–3 years.
 
 ## 1. Overview
 
@@ -12,7 +12,7 @@
 
 ### Audience
 
-- **Primary:** internal decision-makers at current startup evaluating Ninad for a graphic designer role alongside existing SWE responsibilities.
+- **Primary:** internal decision-makers at Blue Voice evaluating Ninad for a graphic designer role alongside existing SWE responsibilities.
 - **Secondary:** general portfolio use for the next 2–3 years. Ninad is highly unlikely to pursue a design-primary job, so the site is a maintained credibility asset, not a job-hunting tool.
 
 ### Guiding principles
@@ -29,8 +29,8 @@ Six total surfaces:
 | URL | File | Purpose |
 |---|---|---|
 | `/` | `index.html` | Hero + 2 featured case studies + ASU Hub preview + link to archive |
-| `/case-study/own-startup.html` | `case-study/own-startup.html` | Founding brand + product narrative (end-to-end, solo ownership) |
-| `/case-study/app-redesign.html` | `case-study/app-redesign.html` | Before/after UX case study, current role |
+| `/case-study/drive-insight.html` | `case-study/drive-insight.html` | Founding brand + product narrative for **Drive Insight** (end-to-end, solo ownership) |
+| `/case-study/app-redesign.html` | `case-study/app-redesign.html` | Before/after UX case study of the **Blue Voice** app redesign |
 | `/asu-hub.html` | `asu-hub.html` | Curated gallery of ASU Alumni + Athletics work, print and digital |
 | `/work.html` | `work.html` | Filterable archive of every other piece, including the 2020 catalog |
 | `/about.html` | `about.html` | Bio, design-relevant CV content (Achievements, Skills), contact details inline |
@@ -54,9 +54,9 @@ Every 2020 category is preserved as a tag. Pieces can carry multiple tags.
 
 ## 3. Content Strategy
 
-### Case Study 1 — Own Startup (anchor piece)
+### Case Study 1 — Drive Insight (anchor piece)
 
-Solo end-to-end design: brand, logo, product UI, marketing. Startup is on ice but publishable without restriction.
+Solo end-to-end design for Drive Insight: brand, logo, product UI, marketing. The startup is on ice but publishable without restriction.
 
 **Structure:**
 - Hero: logo + one strong product shot
@@ -69,9 +69,9 @@ Solo end-to-end design: brand, logo, product UI, marketing. Startup is on ice bu
 
 **Why this is the anchor:** solo ownership of brand → product → marketing is the hardest layered skill to demonstrate in a portfolio. Most designers only ever touch one layer.
 
-### Case Study 2 — App Redesign at current startup
+### Case Study 2 — Blue Voice app redesign
 
-Publishable before/after screens. UX-led, revamped entire app last year.
+Publishable before/after screens of the Blue Voice product. UX-led; revamped the entire app last year as part of the current SWE role.
 
 **Structure:**
 - Hero: before/after side-by-side
@@ -145,7 +145,7 @@ Minimal. Subtle hover states on tiles (slight lift or opacity shift). Page-load 
 ├── index.html                     # homepage
 ├── about.html                     # about + CV sections + contact
 ├── case-study/
-│   ├── own-startup.html
+│   ├── drive-insight.html
 │   └── app-redesign.html
 ├── asu-hub.html                   # gallery
 ├── work.html                      # filterable archive
@@ -239,8 +239,8 @@ GitHub Pages from `main` branch root. No custom build. Specific configuration (P
 
 ### Phase 2 — Case studies
 
-- Build `/case-study/own-startup.html` with real copy and images
-- Build `/case-study/app-redesign.html` with real copy and images
+- Build `/case-study/drive-insight.html` with real copy and images
+- Build `/case-study/app-redesign.html` (Blue Voice) with real copy and images
 - Build shared case-study layout components in `css/components.css`
 
 ### Phase 3 — Galleries
