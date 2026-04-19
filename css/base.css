@@ -1,0 +1,53 @@
+/* Minimal reset */
+*, *::before, *::after { box-sizing: border-box; }
+html, body, h1, h2, h3, h4, p, ul, ol, figure { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+img, video { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; background: none; border: none; cursor: pointer; color: inherit; }
+
+/* Base typography */
+html { font-size: 16px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  line-height: 1.55;
+}
+
+/* Display headings */
+h1, h2, h3, .display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+}
+h1 { font-size: var(--fs-3xl); }
+h2 { font-size: var(--fs-2xl); }
+h3 { font-size: var(--fs-xl); }
+
+/* Prose */
+p { max-width: var(--prose-max); margin-bottom: var(--sp-2); }
+p.lead { font-size: var(--fs-lg); color: var(--text); }
+a:hover, a:focus { color: var(--accent-hover); }
+
+/* Small UI text */
+.label {
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+.muted { color: var(--text-muted); }
+
+/* Layout primitives */
+.container { max-width: var(--content-max); margin: 0 auto; padding: 0 var(--gutter); }
+.container-narrow { max-width: 720px; margin: 0 auto; padding: 0 var(--gutter); }
+
+.rule { height: 1px; background: var(--rule); border: none; margin: var(--sp-5) 0; }
+.accent-rule { height: 2px; width: 40px; background: var(--accent); border: none; margin: var(--sp-2) 0; }
+
+section { padding: var(--sp-6) 0; }
+section + section { padding-top: 0; }
