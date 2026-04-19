@@ -4,6 +4,9 @@
 # Playwright MCP test artifacts
 .playwright-mcp/
 
+# Superpowers brainstorm scratch dir (visual companion mockups)
+.superpowers/
+
 # Logs
 logs
 *.log
