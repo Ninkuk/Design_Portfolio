@@ -1,0 +1,24 @@
+/* Medium screens and down (≤ 900px) */
+@media (max-width: 900px) {
+  :root {
+    --sp-6: 3rem;
+    --sp-7: 4rem;
+  }
+  .cs-meta { gap: var(--sp-3); }
+  .cs-grid-2 { grid-template-columns: 1fr; }
+  .gallery-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+}
+
+/* Small screens (≤ 600px) */
+@media (max-width: 600px) {
+  :root {
+    --gutter: 1.25rem;
+    --sp-5: 2rem;
+    --sp-6: 2.5rem;
+  }
+  h1 { font-size: clamp(2rem, 10vw, 3.5rem); }
+  .cs-header h1 { font-size: clamp(2rem, 9vw, 3rem); }
+  .filter-chips { gap: 6px; }
+  .chip { font-size: var(--fs-xs); padding: 5px 11px; }
+  .case-study-tile__image { aspect-ratio: 4 / 3; }
+}
