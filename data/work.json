@@ -587,25 +587,16 @@
   {
     "id": "webapp-p2f",
     "title": "P2F Web App",
-    "tags": ["web-app", "product-ui"],
+    "tags": ["web-app"],
     "year": 2019,
     "thumb": "./images/WebApp/P2F.jpg",
     "full": "./images/WebApp/P2F.jpg",
     "caption": ""
   },
   {
-    "id": "webapp-pk-jpg",
-    "title": "PK Web App",
-    "tags": ["web-app", "product-ui"],
-    "year": 2019,
-    "thumb": "./images/WebApp/PK.jpg",
-    "full": "./images/WebApp/PK.jpg",
-    "caption": ""
-  },
-  {
-    "id": "webapp-pk-png",
-    "title": "PK Web App — Alt",
-    "tags": ["web-app", "product-ui"],
+    "id": "webapp-pk",
+    "title": "PK — Web App Concept",
+    "tags": ["web-app"],
     "year": 2019,
     "thumb": "./images/WebApp/PK.png",
     "full": "./images/WebApp/PK.png",
@@ -614,7 +605,7 @@
   {
     "id": "webapp-screenshot-1",
     "title": "Web App Screenshot 1",
-    "tags": ["web-app", "product-ui"],
+    "tags": ["web-app"],
     "year": 2019,
     "thumb": "./images/WebApp/webapp-screenshot-1.png",
     "full": "./images/WebApp/webapp-screenshot-1.png",
@@ -623,7 +614,7 @@
   {
     "id": "webapp-screenshot-2",
     "title": "Web App Screenshot 2",
-    "tags": ["web-app", "product-ui"],
+    "tags": ["web-app"],
     "year": 2019,
     "thumb": "./images/WebApp/webapp-screenshot-2.png",
     "full": "./images/WebApp/webapp-screenshot-2.png",
@@ -632,7 +623,7 @@
   {
     "id": "webapp-screenshot-3",
     "title": "Web App Screenshot 3",
-    "tags": ["web-app", "product-ui"],
+    "tags": ["web-app"],
     "year": 2019,
     "thumb": "./images/WebApp/webapp-screenshot-3.png",
     "full": "./images/WebApp/webapp-screenshot-3.png",
@@ -641,7 +632,7 @@
   {
     "id": "webapp-screenshot-4",
     "title": "Web App Screenshot 4",
-    "tags": ["web-app", "product-ui"],
+    "tags": ["web-app"],
     "year": 2019,
     "thumb": "./images/WebApp/webapp-screenshot-4.png",
     "full": "./images/WebApp/webapp-screenshot-4.png",
@@ -650,7 +641,7 @@
   {
     "id": "webapp-collated",
     "title": "Web App — Collated",
-    "tags": ["web-app", "product-ui"],
+    "tags": ["web-app"],
     "year": 2019,
     "thumb": "./images/WebApp/collated.jpg",
     "full": "./images/WebApp/collated.jpg",
@@ -659,7 +650,7 @@
   {
     "id": "webapp-pvl-sites",
     "title": "PVL Sites",
-    "tags": ["web-app", "product-ui"],
+    "tags": ["web-app"],
     "year": 2019,
     "thumb": "./images/WebApp/pvlsites.jpg",
     "full": "./images/WebApp/pvlsites.jpg",
@@ -668,7 +659,7 @@
   {
     "id": "webapp-stephire",
     "title": "Stephire",
-    "tags": ["web-app", "product-ui"],
+    "tags": ["web-app"],
     "year": 2019,
     "thumb": "./images/WebApp/stephire.jpg",
     "full": "./images/WebApp/stephire.jpg",
