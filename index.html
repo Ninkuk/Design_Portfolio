@@ -1,140 +1,87 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- SEO -->
-
-    <!-- Website Title -->
-    <title>Welcome to Ninad Kulkarni's Portfolio</title>
-
-    <!-- Material Design for Bootstrap fonts and icons -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-<!-- Custom CSS Bootstrap Override -->
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/responsive_home.css">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="/favicon.jpg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ninad Kulkarni — Designer</title>
+  <meta name="description" content="Designer and software engineer. Brand systems, print, and product UI.">
+  <link rel="icon" type="image/jpeg" href="./favicon.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/components.css">
 </head>
-
 <body>
-    <div id="masthead">
-        <div id="masthead-content">
-            <h1 id="welcome-heading" class="h1-bold">Welcome to <br> Ninad Kulkarni's <br> <span class="highlight">Design
-					Portfolio</span></h1>
-            <a href="#explore-cards"><img src="https://img.icons8.com/material-rounded/100/FFFFFF/chevron-down.png"></a>
+
+  <section class="container" style="padding-top: var(--sp-6); padding-bottom: var(--sp-7);">
+    <div class="label">Ninad Kulkarni</div>
+    <h1 style="font-size: clamp(2.5rem, 7vw, 5rem); margin-top: var(--sp-3); max-width: 900px;">
+      Designer<br>working across brand, print, and product.
+    </h1>
+    <p class="lead muted" style="margin-top: var(--sp-3); max-width: 580px;">
+      Selected work from a founding-designer stint at Drive Insight, ASU Enterprise Marketing,
+      and the Blue Voice app I'm redesigning now.
+    </p>
+  </section>
+
+  <hr class="rule container" style="max-width: var(--content-max);">
+
+  <section class="container">
+    <div class="label">Selected Work</div>
+
+    <div class="case-study-tile" style="margin-top: var(--sp-4);">
+      <a href="./case-study/drive-insight.html">
+        <div class="case-study-tile__image" data-placeholder></div>
+        <div class="case-study-tile__meta">
+          <div class="label">Case Study &middot; Brand + Product</div>
+          <h2>Drive Insight</h2>
+          <p class="muted">End-to-end design for a founding-stage startup — brand, product UI, marketing.</p>
         </div>
+      </a>
     </div>
 
-    <div id="explore-cards" class="mt-5 mb-5 container">
-        <h1 class="display-2 h1-bold text-white text-center section-title">Navigate This Site</h1>
-
-        <div id="explore-cards-container" class="mt-3 card-row row justify-content-center">
-            <!--About Me-->
-            <div class="card col-lg-3 col-md-5" onclick="location.href='about.html';">
-                <img src="images/Card_About.jpg" alt="Card Image">
-                <h1 class="display-4 h1-bold">About Me</h1>
-                <span class="title-underline"></span>
-            </div>
-
-            <!--Achievements/Honors-->
-            <div class="card col-lg-3 col-md-5" onclick="location.href='achievements.html';">
-                <img src="images/Card_Achievements.jpg" alt="Card Image">
-                <h1 class="display-4 h1-bold">Achievements<br>& Honors</h1>
-                <span class="title-underline"></span>
-            </div>
-
-            <!--Skills Breakdown-->
-            <div class="card card col-lg-3 col-md-5" onclick="location.href='skills.html';">
-                <img src="images/Card_Skills.jpg" alt="Card Image">
-                <h1 class="display-4 h1-bold">Skills<br>Breakdown</h1>
-                <span class="title-underline"></span>
-            </div>
-
-            <!--Logo-->
-            <div class="card card col-lg-3 col-md-5" onclick="location.href='logos.html';">
-                <img src="images/Card_Logo.jpg" alt="Card Image">
-                <h1 class="display-4 h1-bold">Logo Creations</h1>
-                <span class="title-underline"></span>
-            </div>
-
-            <!--Image Manipulation-->
-            <div class="card card col-lg-3 col-md-5" onclick="location.href='image-manipulation.html';">
-                <img src="images/Card_Manipulation.jpg" alt="Card Image">
-                <h1 class="display-4 h1-bold">Image Manipulations</h1>
-                <span class="title-underline"></span>
-            </div>
-
-            <!--Website/App Dev-->
-            <div class="card card col-lg-3 col-md-5" onclick="location.href='webapp.html';">
-                <img src="images/Card_WebApp.jpg" alt="Card Image">
-                <h1 class="display-4 h1-bold">Website + App<br>Development</h1>
-                <span class="title-underline"></span>
-            </div>
-
-            <!--Social Media-->
-            <div class="card card col-lg-3 col-md-5" onclick="location.href='social-media.html';">
-                <img src="images/Card_Social.jpg" alt="Card Image">
-                <h1 class="display-4 h1-bold">Social Media<br>Posts</h1>
-                <span class="title-underline"></span>
-            </div>
-
-            <!--Posters-->
-            <div class="card card col-lg-3 col-md-5" onclick="location.href='posters.html';">
-                <img src="images/Card_Poster.jpg" alt="Card Image">
-                <h1 class="display-4 h1-bold">Poster Designs</h1>
-                <span class="title-underline"></span>
-            </div>
-
-            <!--T-shirt-->
-            <div class="card card col-lg-3 col-md-5" onclick="location.href='tshirts.html';">
-                <img src="images/Card_Tshirt.jpg" alt="Card Image">
-                <h1 class="display-4 h1-bold">T-Shirt Designs</h1>
-                <span class="title-underline"></span>
-            </div>
-
-            <!--Photography-->
-            <div class="card card col-lg-3 col-md-5" onclick="location.href='photography.html';">
-                <img src="images/Card_Photography.jpg" alt="Card Image">
-                <h1 class="display-4 h1-bold">Photography</h1>
-                <span class="title-underline"></span>
-            </div>
-
-            <!--Animations-->
-            <div class="card card col-lg-3 col-md-5" onclick="location.href='animations.html';">
-                <img src="images/Card_Animation.jpg" alt="Card Image">
-                <h1 class="display-4 h1-bold">Animations</h1>
-                <span class="title-underline"></span>
-            </div>
-
-            <!--Restoration-->
-            <div class="card card col-lg-3 col-md-5" onclick="location.href='restorations.html';">
-                <img src="images/Card_Restoration.jpg" alt="Card Image">
-                <h1 class="display-4 h1-bold">Restorations</h1>
-                <span class="title-underline"></span>
-            </div>
+    <div class="case-study-tile" style="margin-top: var(--sp-5);">
+      <a href="./case-study/app-redesign.html">
+        <div class="case-study-tile__image" data-placeholder></div>
+        <div class="case-study-tile__meta">
+          <div class="label">Case Study &middot; Product UX</div>
+          <h2>Blue Voice app redesign</h2>
+          <p class="muted">UX-led redesign of the entire Blue Voice app — before, after, and the decisions between.</p>
         </div>
+      </a>
     </div>
+  </section>
 
-    <div id="social-links" class="mt-5 mb-5 container text-center">
-        <h1 class="display-2 h1-bold text-white section-title">Find Me Here</h1>
-        <a href="https://www.linkedin.com/in/ninad-kulkarni-2001/"><img src="https://img.icons8.com/color/50/000000/linkedin.png"></a>
-        <a href="mailto:ninadk03@gmail.com"><img src="https://img.icons8.com/color/50/000000/gmail.png"></a>
-        <a href="https://github.com/Ninkuk"><img src="https://img.icons8.com/color/50/000000/github.png"></a>
-        <a href="https://www.behance.net/ninadk038247"><img src="https://img.icons8.com/color/50/000000/behance.png"></a>
-        <a href="https://www.instagram.com/ninadfbla/"><img src="https://img.icons8.com/color/50/000000/instagram-new.png"></a>
-        <a href="https://play.google.com/store/apps/developer?id=Ninkuk"><img src="https://img.icons8.com/color/50/000000/google-play.png"></a>
+  <hr class="rule container" style="max-width: var(--content-max); margin-top: var(--sp-6);">
+
+  <section class="container">
+    <div class="label">Gallery</div>
+    <a href="./asu-hub.html" style="display: block; margin-top: var(--sp-3);">
+      <h2>ASU Alumni + Athletics &rarr;</h2>
+      <p class="muted" style="margin-top: var(--sp-2);">Print and digital campaign work for ASU Enterprise Marketing.</p>
+    </a>
+  </section>
+
+  <hr class="rule container" style="max-width: var(--content-max); margin-top: var(--sp-6);">
+
+  <section class="container">
+    <a href="./work.html" style="display: block;">
+      <div class="label">Archive</div>
+      <h2 style="margin-top: var(--sp-2);">Everything else &rarr;</h2>
+      <p class="muted" style="margin-top: var(--sp-2);">The full catalog — logos, posters, social, photography, and more.</p>
+    </a>
+  </section>
+
+  <footer class="container" style="padding: var(--sp-7) var(--gutter) var(--sp-4); color: var(--text-muted); font-size: var(--fs-sm);">
+    <hr class="rule" style="margin-bottom: var(--sp-3);">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--sp-2);">
+      <span>Ninad Kulkarni &middot; 2026</span>
+      <span>
+        <a href="./about.html" style="color: var(--text-muted);">About</a> &middot;
+        <a href="mailto:ninadk.dev@gmail.com" style="color: var(--text-muted);">Email</a> &middot;
+        <a href="https://www.linkedin.com/in/ninad-kulkarni-2001/" style="color: var(--text-muted);">LinkedIn</a>
+      </span>
     </div>
-
+  </footer>
 </body>
-
 </html>

@@ -1,0 +1,18 @@
+/* Case study tile (homepage) */
+.case-study-tile { display: block; }
+.case-study-tile a { display: block; color: inherit; }
+.case-study-tile__image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--rule);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+.case-study-tile__image[data-placeholder] {
+  background: repeating-linear-gradient(45deg, var(--rule), var(--rule) 12px, #d8d4c8 12px, #d8d4c8 24px);
+}
+.case-study-tile__image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.case-study-tile a:hover .case-study-tile__image { transform: translateY(-2px); }
+.case-study-tile__meta { padding-top: var(--sp-2); }
+.case-study-tile__meta h2 { margin-top: var(--sp-1); }
