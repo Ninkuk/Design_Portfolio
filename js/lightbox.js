@@ -17,15 +17,20 @@
 
   document.body.appendChild(overlay);
 
+  let lastFocus = null;
+
   function open(src, alt) {
+    lastFocus = document.activeElement;
     imgEl.src = src;
     imgEl.alt = alt || '';
     overlay.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
+    closeBtn.focus();
   }
   function close() {
     overlay.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
+    if (lastFocus && typeof lastFocus.focus === 'function') lastFocus.focus();
     setTimeout(() => {
       if (overlay.getAttribute('aria-hidden') === 'true') imgEl.src = '';
     }, 250);
@@ -41,7 +46,8 @@
       if (src) open(src, alt);
       return;
     }
-    if (e.target === overlay || e.target === closeBtn) close();
+    if (e.target === overlay) close();
+    else if (closeBtn.contains(e.target)) close();
   });
 
   document.addEventListener('keydown', (e) => {
