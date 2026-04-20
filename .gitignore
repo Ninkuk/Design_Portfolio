@@ -10,6 +10,13 @@
 # Git worktrees (isolated workspaces for in-progress features)
 .worktrees/
 
+# Playwright screenshot artifacts (root-level ephemera from MCP runs)
+/*_[0-9]*px.png
+/*_screenshot.png
+/*_screenshot_*.png
+/*-preview.png
+/*_page_*.png
+
 # Logs
 logs
 *.log
