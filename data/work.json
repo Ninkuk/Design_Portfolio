@@ -1,5 +1,392 @@
 [
   {
+    "id": "drive-insight-wordmark",
+    "title": "Drive Insight — Wordmark",
+    "tags": ["brand", "logo"],
+    "year": 2025,
+    "thumb": "./images/drive-insight/brand-logo-dark.png",
+    "full": "./images/drive-insight/brand-logo-dark.png",
+    "caption": "Wordmark where the gradient scoring scale replaces each letter I."
+  },
+  {
+    "id": "drive-insight-splash",
+    "title": "Drive Insight — App Launch Splash",
+    "tags": ["brand"],
+    "year": 2025,
+    "thumb": "./images/drive-insight/brand-scale-splash.png",
+    "full": "./images/drive-insight/brand-scale-splash.png",
+    "caption": "Launch screen: the scoring scale as a standalone mark."
+  },
+  {
+    "id": "drive-insight-landing",
+    "title": "Drive Insight — Marketing Site",
+    "tags": ["web-app", "brand"],
+    "year": 2025,
+    "thumb": "./images/drive-insight/marketing-landing.png",
+    "full": "./images/drive-insight/marketing-landing.png",
+    "caption": "Single-scroll marketing site: pitch, product grid, compatibility check, FAQ."
+  },
+  {
+    "id": "drive-insight-card-trip-insights",
+    "title": "Drive Insight — Trip Insights Card",
+    "tags": ["product-ui", "social"],
+    "year": 2025,
+    "thumb": "./images/drive-insight/card-trip-insights.png",
+    "full": "./images/drive-insight/card-trip-insights.png",
+    "caption": "App Store marketing card: trip summary view."
+  },
+  {
+    "id": "drive-insight-card-space-time",
+    "title": "Drive Insight — Space-Time Card",
+    "tags": ["product-ui", "social"],
+    "year": 2025,
+    "thumb": "./images/drive-insight/card-space-time.png",
+    "full": "./images/drive-insight/card-space-time.png",
+    "caption": "App Store marketing card: altitude and route over time."
+  },
+  {
+    "id": "drive-insight-card-trends",
+    "title": "Drive Insight — Long-Term Trends Card",
+    "tags": ["product-ui", "social"],
+    "year": 2025,
+    "thumb": "./images/drive-insight/card-long-term-trends.png",
+    "full": "./images/drive-insight/card-long-term-trends.png",
+    "caption": "App Store marketing card: weekly cost and efficiency trends."
+  },
+  {
+    "id": "drive-insight-card-bluetooth",
+    "title": "Drive Insight — Bluetooth Pairing Card",
+    "tags": ["product-ui", "social"],
+    "year": 2025,
+    "thumb": "./images/drive-insight/card-bluetooth-pairing.png",
+    "full": "./images/drive-insight/card-bluetooth-pairing.png",
+    "caption": "App Store marketing card: car pairing confirmation."
+  },
+  {
+    "id": "drive-insight-card-trip-history",
+    "title": "Drive Insight — Trip History Card",
+    "tags": ["product-ui", "social"],
+    "year": 2025,
+    "thumb": "./images/drive-insight/card-trip-history.png",
+    "full": "./images/drive-insight/card-trip-history.png",
+    "caption": "App Store marketing card: weekly trip list."
+  },
+  {
+    "id": "drive-insight-card-geofencing",
+    "title": "Drive Insight — Geofencing Card",
+    "tags": ["product-ui", "social"],
+    "year": 2025,
+    "thumb": "./images/drive-insight/card-geofencing.png",
+    "full": "./images/drive-insight/card-geofencing.png",
+    "caption": "App Store marketing card: geofence configuration."
+  },
+  {
+    "id": "drive-insight-anxious-driver",
+    "title": "Drive Insight — Anxious Driver",
+    "tags": ["social", "image-manipulation"],
+    "year": 2025,
+    "thumb": "./images/drive-insight/scared-teen-driver.png",
+    "full": "./images/drive-insight/scared-teen-driver.png",
+    "caption": "Empathy-led social variant for new and anxious drivers."
+  },
+  {
+    "id": "asu-sun-devil-100-hero-1",
+    "title": "Sun Devil 100 — Campaign Hero",
+    "tags": ["brand", "social"],
+    "year": 2021,
+    "thumb": "./images/asu-hub/sun-devil-100-hero-1.jpg",
+    "full": "./images/asu-hub/sun-devil-100-hero-1.jpg",
+    "caption": "ASU Alumni Sun Devil 100 awards campaign hero."
+  },
+  {
+    "id": "asu-sun-devil-100-hero-2",
+    "title": "Sun Devil 100 — Campaign Hero (Alt)",
+    "tags": ["brand", "social"],
+    "year": 2021,
+    "thumb": "./images/asu-hub/sun-devil-100-hero-2.jpg",
+    "full": "./images/asu-hub/sun-devil-100-hero-2.jpg",
+    "caption": "Alternate direction for the Sun Devil 100 hero."
+  },
+  {
+    "id": "asu-sun-devil-100-zoom-bg",
+    "title": "Sun Devil 100 — Zoom Background",
+    "tags": ["brand", "social"],
+    "year": 2021,
+    "thumb": "./images/asu-hub/sun-devil-100-zoom-bg-3.jpg",
+    "full": "./images/asu-hub/sun-devil-100-zoom-bg-3.jpg",
+    "caption": "Branded Zoom background for honorees."
+  },
+  {
+    "id": "asu-door-hanger",
+    "title": "ASU Alumni Update — Door Hanger",
+    "tags": ["print", "brand"],
+    "year": 2021,
+    "thumb": "./images/asu-hub/update-door-hanger.png",
+    "full": "./images/asu-hub/update-door-hanger.png",
+    "caption": "Print door hanger for the ASU Alumni Update campaign."
+  },
+  {
+    "id": "asu-sun-devil-100-door-tag",
+    "title": "Sun Devil 100 — Door Tag",
+    "tags": ["print", "brand"],
+    "year": 2020,
+    "thumb": "./images/asu-hub/sun-devil-100-door-tag.png",
+    "full": "./images/asu-hub/sun-devil-100-door-tag.png",
+    "caption": "Print door tag for the Sun Devil 100 campaign."
+  },
+  {
+    "id": "asu-sun-devil-100-honoree-icon",
+    "title": "Sun Devil 100 — Honoree Digital Ad",
+    "tags": ["brand", "social"],
+    "year": 2021,
+    "thumb": "./images/asu-hub/sun-devil-100-honoree-icon.png",
+    "full": "./images/asu-hub/sun-devil-100-honoree-icon.png",
+    "caption": "Digital ad unit (326×280) for honorees."
+  },
+  {
+    "id": "asu-wechat-auca-poster",
+    "title": "AUCA China — WeChat Poster",
+    "tags": ["print", "social", "editorial"],
+    "year": 2021,
+    "thumb": "./images/asu-hub/wechat-auca-china-poster.jpg",
+    "full": "./images/asu-hub/wechat-auca-china-poster.jpg",
+    "caption": "AUCA China Career Events poster for WeChat, Spring 2021."
+  },
+  {
+    "id": "asu-catalyst-mars",
+    "title": "Catalyst — Eyes on Mars",
+    "tags": ["editorial", "image-manipulation"],
+    "year": 2021,
+    "thumb": "./images/asu-hub/catalyst-eyes-on-mars.jpg",
+    "full": "./images/asu-hub/catalyst-eyes-on-mars.jpg",
+    "caption": "Catalyst Episode 302 YouTube thumbnail."
+  },
+  {
+    "id": "asu-mindfulness-332",
+    "title": "Midday Mindfulness — Spring Cleaning",
+    "tags": ["editorial", "image-manipulation"],
+    "year": 2021,
+    "thumb": "./images/asu-hub/midday-mindfulness-332-spring-cleaning.jpg",
+    "full": "./images/asu-hub/midday-mindfulness-332-spring-cleaning.jpg",
+    "caption": "Midday Mindfulness Episode 332 YouTube thumbnail."
+  },
+  {
+    "id": "asu-mindfulness-336",
+    "title": "Midday Mindfulness — Medical Practice",
+    "tags": ["editorial", "image-manipulation"],
+    "year": 2021,
+    "thumb": "./images/asu-hub/midday-mindfulness-336-medical-practice.jpg",
+    "full": "./images/asu-hub/midday-mindfulness-336-medical-practice.jpg",
+    "caption": "Midday Mindfulness Episode 336 YouTube thumbnail."
+  },
+  {
+    "id": "asu-mindfulness-337",
+    "title": "Midday Mindfulness — Nervous System",
+    "tags": ["editorial", "image-manipulation"],
+    "year": 2021,
+    "thumb": "./images/asu-hub/midday-mindfulness-337-nervous-system.jpg",
+    "full": "./images/asu-hub/midday-mindfulness-337-nervous-system.jpg",
+    "caption": "Midday Mindfulness Episode 337 YouTube thumbnail."
+  },
+  {
+    "id": "asu-mindfulness-345",
+    "title": "Midday Mindfulness — End of Season",
+    "tags": ["editorial", "image-manipulation"],
+    "year": 2021,
+    "thumb": "./images/asu-hub/midday-mindfulness-345-end-of-season.jpg",
+    "full": "./images/asu-hub/midday-mindfulness-345-end-of-season.jpg",
+    "caption": "Midday Mindfulness Episode 345 YouTube thumbnail."
+  },
+  {
+    "id": "social-america-level-baa",
+    "title": "America Level BAA",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/America_Level_BAA.jpg",
+    "full": "./images/Social/America_Level_BAA.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-march-for-babies",
+    "title": "March for Babies",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/MarchForBabies.jpg",
+    "full": "./images/Social/MarchForBabies.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-march-of-dimes-deadline",
+    "title": "March of Dimes — Application Deadline",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/MarchOfDimesApplicationDeadline.jpg",
+    "full": "./images/Social/MarchOfDimesApplicationDeadline.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-nflc-1",
+    "title": "NFLC 1",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/NFLC_1.jpg",
+    "full": "./images/Social/NFLC_1.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-nflc-2",
+    "title": "NFLC 2",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/NFLC_2.jpg",
+    "full": "./images/Social/NFLC_2.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-nflc-3",
+    "title": "NFLC 3",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/NFLC_3.jpg",
+    "full": "./images/Social/NFLC_3.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-nlc-3-days",
+    "title": "NLC — 3 Days",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/NLC_3_Days.jpg",
+    "full": "./images/Social/NLC_3_Days.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-sma-writers-schedule",
+    "title": "SMA Writers Schedule — May 07–10",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/SMA_Writers_Schedule_May_07-10.jpg",
+    "full": "./images/Social/SMA_Writers_Schedule_May_07-10.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-scavenger-hunt",
+    "title": "Scavenger Hunt",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/ScavangerHunt.jpg",
+    "full": "./images/Social/ScavangerHunt.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-spring-stock-market-game",
+    "title": "Spring Stock Market Game",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/SpringStockMarketGame.jpg",
+    "full": "./images/Social/SpringStockMarketGame.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-tbl-spring-deadline",
+    "title": "TBL Spring Issue — Deadline",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/TBLSpringIssueDeadline.jpg",
+    "full": "./images/Social/TBLSpringIssueDeadline.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-spring-stock-market-may-4",
+    "title": "Spring Stock Market Game — May 4th",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/TheSpringStockMarketGame_May4th.jpg",
+    "full": "./images/Social/TheSpringStockMarketGame_May4th.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-fbla-week-start",
+    "title": "FBLA Week — Start",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/FBLA_Week_START.jpg",
+    "full": "./images/Social/FBLA_Week_START.jpg",
+    "caption": ""
+  },
+  {
+    "id": "social-fbla-week-end",
+    "title": "FBLA Week — End",
+    "tags": ["social"],
+    "year": 2019,
+    "thumb": "./images/Social/FBLA_Week_END.jpg",
+    "full": "./images/Social/FBLA_Week_END.jpg",
+    "caption": ""
+  },
+  {
+    "id": "tshirt-fbla",
+    "title": "FBLA T-Shirt",
+    "tags": ["tshirt"],
+    "year": 2019,
+    "thumb": "./images/T-Shirts/FBLA_T-Shirt.jpg",
+    "full": "./images/T-Shirts/FBLA_T-Shirt.jpg",
+    "caption": ""
+  },
+  {
+    "id": "tshirt-dcon-mockup",
+    "title": "DCON T-Shirt Mockup",
+    "tags": ["tshirt"],
+    "year": 2018,
+    "thumb": "./images/T-Shirts/DCON_Mockup.jpg",
+    "full": "./images/T-Shirts/DCON_Mockup.jpg",
+    "caption": ""
+  },
+  {
+    "id": "tshirt-key-club",
+    "title": "Key Club T-Shirt",
+    "tags": ["tshirt"],
+    "year": 2019,
+    "thumb": "./images/T-Shirts/KeyClub.jpg",
+    "full": "./images/T-Shirts/KeyClub.jpg",
+    "caption": ""
+  },
+  {
+    "id": "tshirt-asu-learn-to-thrive",
+    "title": "ASU — Learn to Thrive Mockup",
+    "tags": ["tshirt"],
+    "year": 2019,
+    "thumb": "./images/T-Shirts/Ninad_Kulkarni_ASU_LearnToThrive_MOCKUP.jpg",
+    "full": "./images/T-Shirts/Ninad_Kulkarni_ASU_LearnToThrive_MOCKUP.jpg",
+    "caption": ""
+  },
+  {
+    "id": "tshirt-red-cross-front",
+    "title": "Red Cross T-Shirt — Front Mockup",
+    "tags": ["tshirt"],
+    "year": 2019,
+    "thumb": "./images/T-Shirts/Red_Cross_FRONT_Mockup.jpg",
+    "full": "./images/T-Shirts/Red_Cross_FRONT_Mockup.jpg",
+    "caption": ""
+  },
+  {
+    "id": "psyche-face-mask",
+    "title": "Psyche Mission: Face Mask",
+    "tags": ["print", "brand"],
+    "year": 2021,
+    "thumb": "./images/Psyche/psyche-face-mask.png",
+    "full": "./images/Psyche/psyche-face-mask.png",
+    "caption": "Printable cut-and-fold face mask for NASA's Psyche mission outreach."
+  },
+  {
+    "id": "psyched-lettering",
+    "title": "Psyche'd: Lettering",
+    "tags": ["editorial", "image-manipulation"],
+    "year": 2021,
+    "thumb": "./images/Psyche/psyched-01.png",
+    "full": "./images/Psyche/psyched-01.png",
+    "caption": "Layered offset lettering for Psyche mission outreach."
+  },
+  {
     "id": "3dtube-npp-insta",
     "title": "3D Tube NPP — Instagram",
     "tags": ["logo"],
@@ -171,159 +558,6 @@
     "caption": ""
   },
   {
-    "id": "manip-naruto-gaara",
-    "title": "Naruto — Gaara",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Gaara.jpg",
-    "full": "./images/Manip/Naruto/Gaara.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-hashirama",
-    "title": "Naruto — Hashirama",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Hashirama.jpg",
-    "full": "./images/Manip/Naruto/Hashirama.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-hyuga",
-    "title": "Naruto — Hyuga",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Hyuga.jpg",
-    "full": "./images/Manip/Naruto/Hyuga.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-ino-shika-cho",
-    "title": "Naruto — Ino-Shika-Cho",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Ino-shika-cho.jpg",
-    "full": "./images/Manip/Naruto/Ino-shika-cho.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-itachi",
-    "title": "Naruto — Itachi",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Itachi.jpg",
-    "full": "./images/Manip/Naruto/Itachi.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-jiraiya",
-    "title": "Naruto — Jiraiya",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Jiraiya.jpg",
-    "full": "./images/Manip/Naruto/Jiraiya.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-kakashi",
-    "title": "Naruto — Kakashi",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Kakashi.jpg",
-    "full": "./images/Manip/Naruto/Kakashi.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-lee",
-    "title": "Naruto — Lee",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Lee.jpg",
-    "full": "./images/Manip/Naruto/Lee.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-madara",
-    "title": "Naruto — Madara",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Madara.jpg",
-    "full": "./images/Manip/Naruto/Madara.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-minato",
-    "title": "Naruto — Minato",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Minato.jpg",
-    "full": "./images/Manip/Naruto/Minato.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-naruto",
-    "title": "Naruto — Naruto",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Naruto.jpg",
-    "full": "./images/Manip/Naruto/Naruto.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-sasuke",
-    "title": "Naruto — Sasuke",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Sasuke.jpg",
-    "full": "./images/Manip/Naruto/Sasuke.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-team-7",
-    "title": "Naruto — Team 7",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Team7.jpg",
-    "full": "./images/Manip/Naruto/Team7.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-team-minato",
-    "title": "Naruto — Team Minato",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/TeamMinato.jpg",
-    "full": "./images/Manip/Naruto/TeamMinato.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-naruto-tobirama",
-    "title": "Naruto — Tobirama",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/Naruto/Tobirama.jpg",
-    "full": "./images/Manip/Naruto/Tobirama.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-pushing-rc",
-    "title": "Pushing RC",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/PushingRC.jpg",
-    "full": "./images/Manip/PushingRC.jpg",
-    "caption": ""
-  },
-  {
-    "id": "manip-rubiks-cube-push",
-    "title": "Rubik's Cube Push",
-    "tags": ["image-manipulation"],
-    "year": 2019,
-    "thumb": "./images/Manip/RubiksCubePush.jpg",
-    "full": "./images/Manip/RubiksCubePush.jpg",
-    "caption": ""
-  },
-  {
     "id": "photo-balloon-tilt-shift",
     "title": "Balloon — Tilt Shift",
     "tags": ["photography"],
@@ -405,186 +639,6 @@
     "caption": ""
   },
   {
-    "id": "restoration-nana-red",
-    "title": "Photo Restoration — Nana (Red)",
-    "tags": ["restoration"],
-    "year": 2019,
-    "thumb": "./images/Restorations/NANAredRestored.gif",
-    "full": "./images/Restorations/NANAredRestored.gif",
-    "caption": ""
-  },
-  {
-    "id": "social-america-level-baa",
-    "title": "America Level BAA",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/America_Level_BAA.jpg",
-    "full": "./images/Social/America_Level_BAA.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-fbla-week-end",
-    "title": "FBLA Week — End",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/FBLA_Week_END.jpg",
-    "full": "./images/Social/FBLA_Week_END.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-fbla-week-start",
-    "title": "FBLA Week — Start",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/FBLA_Week_START.jpg",
-    "full": "./images/Social/FBLA_Week_START.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-march-for-babies",
-    "title": "March for Babies",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/MarchForBabies.jpg",
-    "full": "./images/Social/MarchForBabies.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-march-of-dimes-deadline",
-    "title": "March of Dimes — Application Deadline",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/MarchOfDimesApplicationDeadline.jpg",
-    "full": "./images/Social/MarchOfDimesApplicationDeadline.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-nflc-1",
-    "title": "NFLC 1",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/NFLC_1.jpg",
-    "full": "./images/Social/NFLC_1.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-nflc-2",
-    "title": "NFLC 2",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/NFLC_2.jpg",
-    "full": "./images/Social/NFLC_2.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-nflc-3",
-    "title": "NFLC 3",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/NFLC_3.jpg",
-    "full": "./images/Social/NFLC_3.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-nlc-3-days",
-    "title": "NLC — 3 Days",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/NLC_3_Days.jpg",
-    "full": "./images/Social/NLC_3_Days.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-sma-writers-schedule",
-    "title": "SMA Writers Schedule — May 07–10",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/SMA_Writers_Schedule_May_07-10.jpg",
-    "full": "./images/Social/SMA_Writers_Schedule_May_07-10.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-scavenger-hunt",
-    "title": "Scavenger Hunt",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/ScavangerHunt.jpg",
-    "full": "./images/Social/ScavangerHunt.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-spring-stock-market-game",
-    "title": "Spring Stock Market Game",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/SpringStockMarketGame.jpg",
-    "full": "./images/Social/SpringStockMarketGame.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-tbl-spring-deadline",
-    "title": "TBL Spring Issue — Deadline",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/TBLSpringIssueDeadline.jpg",
-    "full": "./images/Social/TBLSpringIssueDeadline.jpg",
-    "caption": ""
-  },
-  {
-    "id": "social-spring-stock-market-may-4",
-    "title": "Spring Stock Market Game — May 4th",
-    "tags": ["social"],
-    "year": 2019,
-    "thumb": "./images/Social/TheSpringStockMarketGame_May4th.jpg",
-    "full": "./images/Social/TheSpringStockMarketGame_May4th.jpg",
-    "caption": ""
-  },
-  {
-    "id": "tshirt-dcon-mockup",
-    "title": "DCON T-Shirt Mockup",
-    "tags": ["tshirt"],
-    "year": 2018,
-    "thumb": "./images/T-Shirts/DCON_Mockup.jpg",
-    "full": "./images/T-Shirts/DCON_Mockup.jpg",
-    "caption": ""
-  },
-  {
-    "id": "tshirt-fbla",
-    "title": "FBLA T-Shirt",
-    "tags": ["tshirt"],
-    "year": 2019,
-    "thumb": "./images/T-Shirts/FBLA_T-Shirt.jpg",
-    "full": "./images/T-Shirts/FBLA_T-Shirt.jpg",
-    "caption": ""
-  },
-  {
-    "id": "tshirt-key-club",
-    "title": "Key Club T-Shirt",
-    "tags": ["tshirt"],
-    "year": 2019,
-    "thumb": "./images/T-Shirts/KeyClub.jpg",
-    "full": "./images/T-Shirts/KeyClub.jpg",
-    "caption": ""
-  },
-  {
-    "id": "tshirt-asu-learn-to-thrive",
-    "title": "ASU — Learn to Thrive Mockup",
-    "tags": ["tshirt"],
-    "year": 2019,
-    "thumb": "./images/T-Shirts/Ninad_Kulkarni_ASU_LearnToThrive_MOCKUP.jpg",
-    "full": "./images/T-Shirts/Ninad_Kulkarni_ASU_LearnToThrive_MOCKUP.jpg",
-    "caption": ""
-  },
-  {
-    "id": "tshirt-red-cross-front",
-    "title": "Red Cross T-Shirt — Front Mockup",
-    "tags": ["tshirt"],
-    "year": 2019,
-    "thumb": "./images/T-Shirts/Red_Cross_FRONT_Mockup.jpg",
-    "full": "./images/T-Shirts/Red_Cross_FRONT_Mockup.jpg",
-    "caption": ""
-  },
-  {
     "id": "webapp-p2f",
     "title": "P2F Web App",
     "tags": ["web-app"],
@@ -602,42 +656,7 @@
     "full": "./images/WebApp/PK.png",
     "caption": ""
   },
-  {
-    "id": "webapp-screenshot-1",
-    "title": "Web App Screenshot 1",
-    "tags": ["web-app"],
-    "year": 2019,
-    "thumb": "./images/WebApp/webapp-screenshot-1.png",
-    "full": "./images/WebApp/webapp-screenshot-1.png",
-    "caption": ""
-  },
-  {
-    "id": "webapp-screenshot-2",
-    "title": "Web App Screenshot 2",
-    "tags": ["web-app"],
-    "year": 2019,
-    "thumb": "./images/WebApp/webapp-screenshot-2.png",
-    "full": "./images/WebApp/webapp-screenshot-2.png",
-    "caption": ""
-  },
-  {
-    "id": "webapp-screenshot-3",
-    "title": "Web App Screenshot 3",
-    "tags": ["web-app"],
-    "year": 2019,
-    "thumb": "./images/WebApp/webapp-screenshot-3.png",
-    "full": "./images/WebApp/webapp-screenshot-3.png",
-    "caption": ""
-  },
-  {
-    "id": "webapp-screenshot-4",
-    "title": "Web App Screenshot 4",
-    "tags": ["web-app"],
-    "year": 2019,
-    "thumb": "./images/WebApp/webapp-screenshot-4.png",
-    "full": "./images/WebApp/webapp-screenshot-4.png",
-    "caption": ""
-  },
+
   {
     "id": "webapp-collated",
     "title": "Web App — Collated",
@@ -663,6 +682,60 @@
     "year": 2019,
     "thumb": "./images/WebApp/stephire.jpg",
     "full": "./images/WebApp/stephire.jpg",
+    "caption": ""
+  },
+  {
+    "id": "manip-naruto-naruto",
+    "title": "Naruto — Naruto",
+    "tags": ["image-manipulation"],
+    "year": 2019,
+    "thumb": "./images/Manip/Naruto/Naruto.jpg",
+    "full": "./images/Manip/Naruto/Naruto.jpg",
+    "caption": ""
+  },
+  {
+    "id": "manip-naruto-sasuke",
+    "title": "Naruto — Sasuke",
+    "tags": ["image-manipulation"],
+    "year": 2019,
+    "thumb": "./images/Manip/Naruto/Sasuke.jpg",
+    "full": "./images/Manip/Naruto/Sasuke.jpg",
+    "caption": ""
+  },
+  {
+    "id": "manip-naruto-gaara",
+    "title": "Naruto — Gaara",
+    "tags": ["image-manipulation"],
+    "year": 2019,
+    "thumb": "./images/Manip/Naruto/Gaara.jpg",
+    "full": "./images/Manip/Naruto/Gaara.jpg",
+    "caption": ""
+  },
+  {
+    "id": "manip-naruto-kakashi",
+    "title": "Naruto — Kakashi",
+    "tags": ["image-manipulation"],
+    "year": 2019,
+    "thumb": "./images/Manip/Naruto/Kakashi.jpg",
+    "full": "./images/Manip/Naruto/Kakashi.jpg",
+    "caption": ""
+  },
+  {
+    "id": "manip-pushing-rc",
+    "title": "Pushing RC",
+    "tags": ["image-manipulation"],
+    "year": 2019,
+    "thumb": "./images/Manip/PushingRC.jpg",
+    "full": "./images/Manip/PushingRC.jpg",
+    "caption": ""
+  },
+  {
+    "id": "manip-rubiks-cube-push",
+    "title": "Rubik's Cube Push",
+    "tags": ["image-manipulation"],
+    "year": 2019,
+    "thumb": "./images/Manip/RubiksCubePush.jpg",
+    "full": "./images/Manip/RubiksCubePush.jpg",
     "caption": ""
   }
 ]

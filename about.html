@@ -1,77 +1,337 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About — Ninad Kulkarni</title>
-  <meta name="description" content="Designer and software engineer. Brand systems, print, and product UI.">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="About — Ninad Kulkarni">
-  <meta property="og:description" content="Designer and software engineer. Brand systems, print, and product UI.">
-  <meta property="og:image" content="./images/og-preview.jpg">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" type="image/jpeg" href="./favicon.jpg">
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/tokens.css">
-  <link rel="stylesheet" href="./css/base.css">
-  <link rel="stylesheet" href="./css/responsive.css">
-</head>
-<body>
-  <header class="container" style="padding-top: var(--sp-4); padding-bottom: var(--sp-5);">
-    <a href="./index.html" class="label" style="color: var(--accent);">&larr; Ninad Kulkarni</a>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About — Ninad Kulkarni</title>
+    <meta
+      name="description"
+      content="Designer and software engineer. Brand systems, print, and product UI."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="About — Ninad Kulkarni" />
+    <meta
+      property="og:description"
+      content="Designer and software engineer. Brand systems, print, and product UI."
+    />
+    <meta property="og:image" content="./images/og-preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Ninad Kulkarni — Designer who codes."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="./images/og-preview.png" />
+    <link rel="icon" type="image/jpeg" href="./favicon.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/tokens.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <header class="container site-nav">
+      <a href="./index.html" class="label site-nav__brand">Ninad Kulkarni</a>
+      <span class="site-nav__links">
+        <a href="./work.html" class="label site-nav__link">Work</a>
+        <span class="label site-nav__link--active">About</span>
+      </span>
+    </header>
 
-  <main class="container-narrow">
-    <div class="label">About</div>
-    <h1 style="font-size: var(--fs-3xl); margin-top: var(--sp-2);">Designer. Sometimes engineer.</h1>
-    <hr class="accent-rule">
+    <main class="container">
+      <div class="label">About</div>
+      <h1 style="font-size: var(--fs-3xl); margin-top: var(--sp-2)">
+        Engineer by trade.<br />Designer by heart.
+      </h1>
+      <hr class="accent-rule" />
 
-    <p class="lead" style="margin-top: var(--sp-4);">
-      Ninad Kulkarni is a designer and software engineer based in Phoenix, Arizona. His foundation
-      in graphic design began in high school and deepened through two years as a student designer
-      at ASU's Enterprise Marketing Hub, working across print and digital for Athletics and Alumni.
-    </p>
+      <p class="lead" style="margin-top: var(--sp-4)">
+        I'm a designer and software engineer based in Phoenix, Arizona. I
+        started in graphic design in high school and spent two years as a
+        student designer at ASU's Enterprise Marketing Hub, working across print
+        and digital for Athletics and Alumni.
+      </p>
 
-    <p>
-      He studied Computer Science at Arizona State University and is currently a full-stack
-      software engineer at Blue Voice. He previously founded Drive Insight, a data visualization
-      platform for vehicle telemetry, where he owned the complete design and brand identity.
-    </p>
+      <p>
+        I studied Computer Science at Arizona State and now work as a full-stack
+        software engineer at Blue Voice. Before that I founded Drive Insight, a
+        data visualization platform for vehicle telemetry, where I owned the
+        complete design and brand identity.
+      </p>
 
-    <p class="muted" style="font-size: var(--fs-sm);">Fun fact: I can solve a Rubik's Cube in under 50 seconds.</p>
+      <p class="muted" style="font-size: var(--fs-sm)">
+        Fun fact: I can solve a Rubik's Cube in under 50 seconds.
+      </p>
 
-    <hr class="rule">
+      <hr class="rule" />
 
-    <div class="label">Selected Achievements</div>
-    <ul style="margin-top: var(--sp-2); line-height: 1.9;">
-      <!-- TODO: migrate real entries from old achievements.html before deleting it in Task 16. -->
-      <li>National Social Media Ambassador, FBLA</li>
-      <li>[additional entries]</li>
-    </ul>
+      <div class="label">Selected Achievements</div>
 
-    <hr class="rule">
+      <div class="label" style="margin-top: var(--sp-3)">2019</div>
+      <div class="achievement-grid">
+        <figure
+          class="achievement-card"
+          tabindex="0"
+          role="button"
+          data-lightbox-src="./images/Card_NLC_2019.jpg"
+          aria-label="View FBLA National Leadership Conference 2019"
+        >
+          <img
+            src="./images/Card_NLC_2019.jpg"
+            alt="FBLA National Leadership Conference 2019"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>
+            FBLA National Leadership Conference &middot; 3rd place, Mobile
+            Application Development
+          </figcaption>
+        </figure>
+        <figure
+          class="achievement-card"
+          tabindex="0"
+          role="button"
+          data-lightbox-src="./images/Card_SLC_2019.jpg"
+          aria-label="View FBLA State Leadership Conference 2019"
+        >
+          <img
+            src="./images/Card_SLC_2019.jpg"
+            alt="FBLA State Leadership Conference 2019"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>
+            FBLA State Leadership Conference &middot; 1st place, Mobile
+            Application Development
+          </figcaption>
+        </figure>
+        <figure
+          class="achievement-card"
+          tabindex="0"
+          role="button"
+          data-lightbox-src="./images/Card_R3C_2019.jpg"
+          aria-label="View FBLA Regional #3 Conference 2019"
+        >
+          <img
+            src="./images/Card_R3C_2019.jpg"
+            alt="FBLA Regional #3 Conference 2019"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>
+            FBLA Regional #3 Conference &middot; 1st place, Mobile Application
+            Development
+          </figcaption>
+        </figure>
+        <figure
+          class="achievement-card"
+          tabindex="0"
+          role="button"
+          data-lightbox-src="./images/Card_DCON_2019.jpg"
+          aria-label="View Key Club Southwest District Convention 2019"
+        >
+          <img
+            src="./images/Card_DCON_2019.jpg"
+            alt="Key Club Southwest District Convention 2019"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>
+            Key Club Southwest District Convention &middot; 1st place, T-Shirt
+            Design
+          </figcaption>
+        </figure>
+      </div>
 
-    <div class="label">Skills</div>
-    <p style="margin-top: var(--sp-2);">
-      <!-- TODO: trim aggressively — this is 2026, not "knows Photoshop" territory. -->
-      Brand systems &middot; Print design &middot; Product UI/UX &middot; Typography &middot; Photography &middot;
-      Figma &middot; Adobe Creative Suite &middot; HTML/CSS/JS &middot; React &middot; TypeScript
-    </p>
+      <div class="label" style="margin-top: var(--sp-4)">2018</div>
+      <div class="achievement-grid">
+        <figure
+          class="achievement-card"
+          tabindex="0"
+          role="button"
+          data-lightbox-src="./images/Card_NLC_2018.jpg"
+          aria-label="View FBLA National Leadership Conference 2018"
+        >
+          <img
+            src="./images/Card_NLC_2018.jpg"
+            alt="FBLA National Leadership Conference 2018"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>
+            FBLA National Leadership Conference &middot; 1st place, E-Business
+          </figcaption>
+        </figure>
+        <figure
+          class="achievement-card"
+          tabindex="0"
+          role="button"
+          data-lightbox-src="./images/Card_SLC_2018.jpg"
+          aria-label="View FBLA State Leadership Conference 2018"
+        >
+          <img
+            src="./images/Card_SLC_2018.jpg"
+            alt="FBLA State Leadership Conference 2018"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>
+            FBLA State Leadership Conference &middot; 1st place, E-Business
+          </figcaption>
+        </figure>
+        <figure
+          class="achievement-card"
+          tabindex="0"
+          role="button"
+          data-lightbox-src="./images/Card_R3C_2018.jpg"
+          aria-label="View FBLA Regional #3 Conference 2018"
+        >
+          <img
+            src="./images/Card_R3C_2018.jpg"
+            alt="FBLA Regional #3 Conference 2018"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>
+            FBLA Regional #3 Conference &middot; 1st place, E-Business
+          </figcaption>
+        </figure>
+        <figure
+          class="achievement-card"
+          tabindex="0"
+          role="button"
+          data-lightbox-src="./images/Card_DCON_2018.jpg"
+          aria-label="View Key Club Southwest District Convention 2018"
+        >
+          <img
+            src="./images/Card_DCON_2018.jpg"
+            alt="Key Club Southwest District Convention 2018"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>
+            Key Club Southwest District Convention &middot; 2nd place, Poster
+            Design
+          </figcaption>
+        </figure>
+        <figure
+          class="achievement-card"
+          tabindex="0"
+          role="button"
+          data-lightbox-src="./images/Card_Governer_2018.jpg"
+          aria-label="View Arizona State Governor Commendation 2018"
+        >
+          <img
+            src="./images/Card_Governer_2018.jpg"
+            alt="Arizona State Governor Commendation 2018"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>
+            Arizona State Governor Commendation &middot; for 1st place at FBLA
+            Nationals
+          </figcaption>
+        </figure>
+        <figure
+          class="achievement-card"
+          tabindex="0"
+          role="button"
+          data-lightbox-src="./images/Card_PVUSD_2018.jpg"
+          aria-label="View Paradise Valley USD Honor 2018"
+        >
+          <img
+            src="./images/Card_PVUSD_2018.jpg"
+            alt="Paradise Valley Unified School District Honor 2018"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>
+            Paradise Valley USD Honor &middot; for 1st place at FBLA Nationals
+          </figcaption>
+        </figure>
+      </div>
 
-    <hr class="rule">
+      <hr class="rule" />
 
-    <div class="label">Contact</div>
-    <ul style="margin-top: var(--sp-2); line-height: 1.9;">
-      <li><a href="mailto:ninadk.dev@gmail.com" style="color: var(--accent);">ninadk.dev@gmail.com</a></li>
-      <li><a href="https://www.linkedin.com/in/ninad-kulkarni-2001/" style="color: var(--accent);">LinkedIn</a></li>
-      <li><a href="https://www.behance.net/ninadk038247" style="color: var(--accent);">Behance</a></li>
-      <li><a href="https://github.com/Ninkuk" style="color: var(--accent);">GitHub</a></li>
-    </ul>
-  </main>
+      <div class="label">Skills</div>
+      <p style="margin-top: var(--sp-2)">
+        Brand systems &middot; Product UI &middot; Typography &middot; Figma
+        &middot; Front-end (React, TypeScript)
+      </p>
 
-  <footer class="container" style="padding: var(--sp-6) var(--gutter); color: var(--text-muted); font-size: var(--fs-sm);">
-    <hr class="rule" style="margin-bottom: var(--sp-3);">
-    Ninad Kulkarni &middot; 2026
-  </footer>
-</body>
+      <div class="label" style="margin-top: var(--sp-4)">
+        Adobe Creative Suite
+      </div>
+      <p style="margin-top: var(--sp-2)">
+        Photoshop &middot; Illustrator &middot; Lightroom &middot; InDesign
+        &middot; Animate &middot; Flash
+      </p>
+      <p class="muted" style="font-size: var(--fs-sm)">
+        Basic knowledge: XD &middot; Dreamweaver &middot; Premiere Pro &middot;
+        After Effects
+      </p>
+
+      <div class="label" style="margin-top: var(--sp-4)">
+        Graphic Design Fundamentals
+      </div>
+      <p style="margin-top: var(--sp-2)">
+        Balance &middot; Movement &middot; Space &middot; Form &middot; Shape
+        &middot; Line &middot; Color theory &middot; Vector illustration
+      </p>
+
+      <div class="label" style="margin-top: var(--sp-4)">Animation</div>
+      <p style="margin-top: var(--sp-2)">
+        Walk cycle &middot; Lip sync &middot; Frame-by-frame (Animate &amp;
+        Flash)
+      </p>
+
+      <hr class="rule" />
+
+      <div class="label">Contact</div>
+      <ul style="margin-top: var(--sp-2); line-height: 1.9; max-width: var(--prose-max)">
+        <li>
+          <a href="mailto:ninadk.dev@gmail.com" style="color: var(--accent)"
+            >ninadk.dev@gmail.com</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/ninad-kulkarni-2001/"
+            style="color: var(--accent)"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.behance.net/ninadk038247"
+            style="color: var(--accent)"
+            >Behance</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/Ninkuk" style="color: var(--accent)"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </main>
+
+    <footer
+      class="container"
+      style="
+        padding: var(--sp-6) var(--gutter);
+        color: var(--text-muted);
+        font-size: var(--fs-sm);
+      "
+    >
+      <hr class="rule" style="margin-bottom: var(--sp-3)" />
+      Ninad Kulkarni &middot; 2026
+    </footer>
+
+    <script src="./js/lightbox.js" defer></script>
+  </body>
 </html>

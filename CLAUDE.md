@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A static HTML/CSS/JS design portfolio for Ninad Kulkarni. No build system, no package manager, no tests, no bundler. Pages are plain `.html` files linked via relative (`./…`) hrefs.
 
-Editorial visual system: cream background, near-black text, modernized teal `#00796B` accent, Instrument Serif for display + Inter for UI. Content strategy: **2 case studies** (Drive Insight, Blue Voice), **1 curated gallery** (ASU Hub), **1 filterable archive** (`work.html`) covering every 2020 piece via `data/work.json`. Git-initialized on branch `main`.
+Editorial visual system: cream background, near-black text, modernized teal `#00796B` accent, Instrument Serif for display + Inter for UI. Content strategy: **1 case study** (Drive Insight), **1 curated gallery** (ASU Hub), **1 filterable archive** (`work.html`) covering every 2020 piece via `data/work.json`. Git-initialized on branch `main`.
 
 ## Commands
 
@@ -17,12 +17,11 @@ There is no build, lint, or test pipeline.
 
 ## Architecture
 
-**Page model.** 7 HTML files, no router, no shared layout partial — every page re-inlines the same `<head>` (fonts, favicon, CSS links) and footer. If you change a global pattern, touch every page.
+**Page model.** 6 HTML files, no router, no shared layout partial — every page re-inlines the same `<head>` (fonts, favicon, CSS links) and footer. If you change a global pattern, touch every page.
 
-- `index.html` — hero + 2 case study tiles + ASU Hub preview + archive link + footer
+- `index.html` — hero + 1 case study tile + ASU Hub preview + archive link + footer
 - `about.html` — bio, achievements, skills (CV content that used to be their own 2020 pages), contact
 - `case-study/drive-insight.html` — founding-designer case study (brand + product UI + marketing)
-- `case-study/app-redesign.html` — Blue Voice UX redesign case study
 - `asu-hub.html` — curated gallery for ASU Alumni + Athletics work
 - `work.html` — filterable archive of everything else, data-driven from `data/work.json`
 - `404.html` — GitHub Pages fallback
@@ -34,7 +33,7 @@ There is no build, lint, or test pipeline.
 - `components.css` — case study tiles, case study layout, gallery grid, filter chips, lightbox
 - `responsive.css` — media-query overrides; MUST load last
 
-Every page links these four in order — **except `about.html`**, which omits `components.css` (it was built before components existed and doesn't use any component-level styles). If you add a page, preserve the order.
+Every page links these four in order. If you add a page, preserve the order.
 
 **JavaScript** (`js/`):
 
